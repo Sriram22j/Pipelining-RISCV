@@ -21,3 +21,24 @@
 15. hazard_detection.v
 
 16. riscv_pipeline_top.v
+
+
+Step 1:
+IF.v
+IF_ID.v
+
+Step 2:
+register_file.v
+imm_gen.v
+control_unit.v
+
+Step 3:
+ID.v (instantiates above three modules)
+
+Step 4:
+ID_EX.v
+
+Step 5:
+alu.v
+alu_control.v
+EX.v

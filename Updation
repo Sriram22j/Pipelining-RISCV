@@ -1,0 +1,15 @@
+Can run:
+✓ ADD
+✓ SUB
+✓ AND
+✓ OR
+✓ SLT
+✓ ADDI
+✓ LW
+✓ SW
+✓ BEQ
+
+Fails on:
+✗ Load-use hazards
+✗ Taken branch flushing
+✗ Pipeline stalling

@@ -17,7 +17,6 @@ Fails on:
 
 1. decode_cycle.v      ← expose RS1_D and RS2_D
 2. hazard_unit.v       ← add load-use detection
-pc and then fetch
 3. fetch_cycle.v       ← add StallF and FlushD
 4. PC_Module.v         ← add PCWrite/StallF support
 5. decode_cycle.v      ← add FlushE support
